@@ -7,8 +7,11 @@ const mongoose = require('mongoose');
 
 const app = express();
 
+
 //DB Setup
 mongoose.connect('mongodb://localhost:auth/auth')
+//app.use is for express middleware
+
 
 // App Setup
 app.use(morgan('combined'));
