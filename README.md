@@ -1,3 +1,12 @@
-# React-Redux-Auth-Server
+# Authenticated Server Boilerplate
 
-Tutorial from Udemy using React and Express.
+
+Built using Stephen Grider's advanced redux tutorial.
+
+Uses:
+- Express
+- Bcypt nodejs
+- passport
+- mongodb
+- mongoose
+- jwt simple
