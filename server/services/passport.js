@@ -7,8 +7,8 @@ const LocalStrategy = require('passport-local');
 
 //Create local Strategy
 const localOptions = { usernameField : 'email'};
-const localLogin = new LocalStrategy( localOptions, function(email, passport, done){
-  User.find({ email: email}, function(err, user){
+const localLogin = new LocalStrategy( localOptions, function(email, password, done){
+  User.findOne({ email: email}, function(err, user){
     if(err) { return done(err);}
     if(!user){ return done(null, false);}
 
