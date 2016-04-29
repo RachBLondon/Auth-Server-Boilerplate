@@ -26,6 +26,8 @@ Set permissions using:
 
 Finally start the db in a new terminal tab/window with `mongod`
 
+Remember to shut down mongod runing on local port `kill MONGOID` http://stackoverflow.com/questions/6478113/unable-to-start-mongodb-local-server
+
 For more details see mongo docs at https://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/#run-mongodb
 
 Visit the tutorial at https://www.udemy.com/react-redux-tutorial/learn/v4/overview
