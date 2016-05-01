@@ -26,7 +26,7 @@ Set permissions using:
 
 Finally start the db in a new terminal tab/window with `mongod`
 
-Remember to shut down mongod runing on local port `kill MONGOID` http://stackoverflow.com/questions/6478113/unable-to-start-mongodb-local-server
+Remember to shut down mongod runing on local port  http://stackoverflow.com/questions/6478113/unable-to-start-mongodb-local-server
 
 For more details see mongo docs at https://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/#run-mongodb
 
